@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400);
+/*@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.woof")format("woff"),
+         url("Fonts/Booter - Zero Zero.woof2")format("woff2");
+    font-weight: normal;
+    font-style: normal;
+        }*/
+*{
+    box-sizing: border-box;
+    font-family: Raleway;
+    color:#777;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.nav li{  
+    display: inline;
+}
+/* to let user know the hovering   */
+.nav a :hover{
+    background-color: rgba(255, 255, 255, .5);
+}
+.main-nav{
+    text-align: center;
+    font-size: 1em;
+}
+.main-nav li{
+    padding:0 5%;
+}
+.band-name{
+    text-align: center;
+    margin:0;  /*otherwise bg also larger*/
+    font-size: 4em;
+    font-family: "Booter - Zero Zero";
+}
+
+.nav a{
+    display: inline;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+.nav ul{
+    margin: 0;
+}
+ul{
+    margin: 0;
+}
+.main-header{
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url(photos/header_background.jpg);
+    padding-bottom: 6px;
+}
+
+/*content section */
+
+.content-section{
+    margin: 1em;
+    text-align: center;
+    /* IMPORTANT TO KEEP TEXT ALIGNED WHEN SCREEN SIZE VARIES*/
+    max-width: 0 auto;
+}
+
+.section-header{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #333;
+    font-size: 2.0em;
+}
+
+.about-band-image{
+    float: left;
+    margin: 15px;
+    border-radius: 50%;
+    
+}
+/*.main-footer{
+    background-color: #56CCF2;
+    color: white;
+    display: flex;
+    flex-grow:1;
+    text-align: end;
+}
+.footer-name{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+.footer-ul{  
+}*/
+.main-footer{
+    background-color: #56CCF2;
+    color:white;
+    padding: .25em 0;
+
+}
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+.footer-nav li{
+    padding:  0.5 em;
+}
